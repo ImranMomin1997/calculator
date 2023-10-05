@@ -9,6 +9,7 @@ for (item of buttons) {
       buttonText = "*";
       screenValue += buttonText;
       screen.value = screenValue;
+      console.log("some text");
     } else if (buttonText == "C") {
       screenValue = "";
       screen.value = screenValue;
